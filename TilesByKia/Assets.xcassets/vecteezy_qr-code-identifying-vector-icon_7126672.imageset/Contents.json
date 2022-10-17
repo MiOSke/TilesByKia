@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "vecteezy_qr-code-identifying-vector-icon_7126672.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

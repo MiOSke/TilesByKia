@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C5B934742A24D913539E12 /* Pods_TilesByKia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AFC078D5D7153159BB9002 /* Pods_TilesByKia.framework */; };
 		57CC34552826D79500BDABDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34542826D79500BDABDE /* AppDelegate.swift */; };
 		57CC34572826D79500BDABDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34562826D79500BDABDE /* SceneDelegate.swift */; };
 		57CC34592826D79500BDABDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34582826D79500BDABDE /* ViewController.swift */; };
 		57CC345C2826D79500BDABDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CC345A2826D79500BDABDE /* Main.storyboard */; };
 		57CC345E2826D79700BDABDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CC345D2826D79700BDABDE /* Assets.xcassets */; };
 		57CC34612826D79700BDABDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CC345F2826D79700BDABDE /* LaunchScreen.storyboard */; };
+		57CC34692826D7EB00BDABDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57CC34682826D7EB00BDABDE /* GoogleService-Info.plist */; };
+		57CC346B2826DA3500BDABDE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC346A2826DA3500BDABDE /* ListViewController.swift */; };
+		57CC346D2826DA7D00BDABDE /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC346C2826DA7D00BDABDE /* ScanViewController.swift */; };
+		57CC346F2826DAB200BDABDE /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC346E2826DAB200BDABDE /* ItemDetailViewController.swift */; };
+		57CC34712826E19C00BDABDE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34702826E19C00BDABDE /* DatabaseManager.swift */; };
+		57CC34732826E1D700BDABDE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34722826E1D700BDABDE /* Item.swift */; };
+		57CC34772826ECFA00BDABDE /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CC34762826ECFA00BDABDE /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A66EBE68AA8E96804A01506 /* Pods-TilesByKia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesByKia.debug.xcconfig"; path = "Target Support Files/Pods-TilesByKia/Pods-TilesByKia.debug.xcconfig"; sourceTree = "<group>"; };
+		50AFC078D5D7153159BB9002 /* Pods_TilesByKia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TilesByKia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CC34512826D79500BDABDE /* TilesByKia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TilesByKia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CC34542826D79500BDABDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CC34562826D79500BDABDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		57CC345D2826D79700BDABDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CC34602826D79700BDABDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57CC34622826D79700BDABDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CC34682826D7EB00BDABDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57CC346A2826DA3500BDABDE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		57CC346C2826DA7D00BDABDE /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		57CC346E2826DAB200BDABDE /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		57CC34702826E19C00BDABDE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		57CC34722826E1D700BDABDE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		57CC34762826ECFA00BDABDE /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FBACA9D6CDE381CA39707B19 /* Pods-TilesByKia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TilesByKia.release.xcconfig"; path = "Target Support Files/Pods-TilesByKia/Pods-TilesByKia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C5B934742A24D913539E12 /* Pods_TilesByKia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				57CC34532826D79500BDABDE /* TilesByKia */,
 				57CC34522826D79500BDABDE /* Products */,
+				CA3C740F5CC48D8A096E1EDC /* Pods */,
+				E3737C6C08E4D721D5583B4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,38 @@
 			isa = PBXGroup;
 			children = (
 				57CC34542826D79500BDABDE /* AppDelegate.swift */,
+				57CC34722826E1D700BDABDE /* Item.swift */,
+				57CC34762826ECFA00BDABDE /* ItemTableViewCell.swift */,
+				57CC34702826E19C00BDABDE /* DatabaseManager.swift */,
 				57CC34562826D79500BDABDE /* SceneDelegate.swift */,
 				57CC34582826D79500BDABDE /* ViewController.swift */,
+				57CC346A2826DA3500BDABDE /* ListViewController.swift */,
+				57CC346C2826DA7D00BDABDE /* ScanViewController.swift */,
+				57CC346E2826DAB200BDABDE /* ItemDetailViewController.swift */,
 				57CC345A2826D79500BDABDE /* Main.storyboard */,
 				57CC345D2826D79700BDABDE /* Assets.xcassets */,
 				57CC345F2826D79700BDABDE /* LaunchScreen.storyboard */,
 				57CC34622826D79700BDABDE /* Info.plist */,
+				57CC34682826D7EB00BDABDE /* GoogleService-Info.plist */,
 			);
 			path = TilesByKia;
+			sourceTree = "<group>";
+		};
+		CA3C740F5CC48D8A096E1EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A66EBE68AA8E96804A01506 /* Pods-TilesByKia.debug.xcconfig */,
+				FBACA9D6CDE381CA39707B19 /* Pods-TilesByKia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3737C6C08E4D721D5583B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50AFC078D5D7153159BB9002 /* Pods_TilesByKia.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57CC34652826D79700BDABDE /* Build configuration list for PBXNativeTarget "TilesByKia" */;
 			buildPhases = (
+				EC61A65F754AEC6762BCDB39 /* [CP] Check Pods Manifest.lock */,
 				57CC344D2826D79500BDABDE /* Sources */,
 				57CC344E2826D79500BDABDE /* Frameworks */,
 				57CC344F2826D79500BDABDE /* Resources */,
+				0A13B44726FBF1C954B0BD8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +174,54 @@
 			files = (
 				57CC34612826D79700BDABDE /* LaunchScreen.storyboard in Resources */,
 				57CC345E2826D79700BDABDE /* Assets.xcassets in Resources */,
+				57CC34692826D7EB00BDABDE /* GoogleService-Info.plist in Resources */,
 				57CC345C2826D79500BDABDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A13B44726FBF1C954B0BD8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesByKia/Pods-TilesByKia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TilesByKia/Pods-TilesByKia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TilesByKia/Pods-TilesByKia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC61A65F754AEC6762BCDB39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TilesByKia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57CC344D2826D79500BDABDE /* Sources */ = {
@@ -139,8 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				57CC34592826D79500BDABDE /* ViewController.swift in Sources */,
+				57CC34772826ECFA00BDABDE /* ItemTableViewCell.swift in Sources */,
 				57CC34552826D79500BDABDE /* AppDelegate.swift in Sources */,
+				57CC346F2826DAB200BDABDE /* ItemDetailViewController.swift in Sources */,
+				57CC346D2826DA7D00BDABDE /* ScanViewController.swift in Sources */,
+				57CC34732826E1D700BDABDE /* Item.swift in Sources */,
+				57CC346B2826DA3500BDABDE /* ListViewController.swift in Sources */,
 				57CC34572826D79500BDABDE /* SceneDelegate.swift in Sources */,
+				57CC34712826E19C00BDABDE /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +378,7 @@
 		};
 		57CC34662826D79700BDABDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A66EBE68AA8E96804A01506 /* Pods-TilesByKia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +387,14 @@
 				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TilesByKia/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Please allow access to camera to scan items.\"";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +404,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		57CC34672826D79700BDABDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBACA9D6CDE381CA39707B19 /* Pods-TilesByKia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +419,14 @@
 				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TilesByKia/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Please allow access to camera to scan items.\"";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
