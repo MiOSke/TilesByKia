@@ -80,13 +80,6 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         numberFormatter.numberStyle = NumberFormatter.Style.decimal
     }
     
-    func printThis() {
-        print("This")
-        
-        
-        
-    }
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !isConverting {
             self.view.endEditing(true)
